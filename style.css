@@ -6,11 +6,101 @@
 body{
     background-color: #4072EE;
 }
+#conteiner{
+    position: relative;
+}
 #background{
     position: relative;
 }
 #background img{
-    width: 700px;
+    max-width: 700px;
     position: absolute;
     top: 200px;
+}
+#lightBox{
+    background-color: #FFFFFF;
+    position: absolute;
+    right: 130px;
+    top: 50px;
+    width: 545px;
+    height: 645px;
+    border-radius: 5px;
+}
+.signUp{
+    margin-top: 91px;
+    margin-left: 80px;
+}
+.signUp p{
+    color: #748AA1;
+    font-weight: 400;
+    font-size: 16px;
+}
+.input{
+    background-color:#FFFFFF;
+    position: absolute;
+    width: 450px;
+    height: 350px;
+    left: 9%;
+    bottom: 19%;
+    box-shadow: -3px 3px 3px -5px;
+}
+#emailLable{
+    display: block;
+    font-size: 12px;
+    color: #748AA1;
+    font-weight: 400;
+    margin-left: 45px;
+}
+#emailInput{
+    margin-left: 30px;
+    margin-top: 5px;
+    width: 319px;
+    height: 40px;
+    border-radius: 5px;
+}
+#countryLabel{
+    display: block;
+    font-size: 12px;
+    color: #748AA1;
+    font-weight: 400;
+    margin-left: 45px;
+    margin-top: 20px;
+}
+#countryInput{
+    margin-left: 30px;
+    margin-top: 5px;
+    width: 319px;
+    height: 40px;
+    border-radius: 5px;
+}
+#cityAndZip{
+    display: flex;
+}
+#cityLabel{
+    font-size: 12px;
+    color: #748AA1;
+    font-weight: 400;
+    margin-left: 45px;
+    margin-top: 26px;
+}
+#zipLabel{
+    font-size: 12px;
+    color: #748AA1;
+    font-weight: 400;
+    margin-left: 55px;
+    margin-top: 26px;
+}
+#cityInput{
+    margin-left: -35px;
+    margin-top: 45px;
+    width: 142px;
+    height: 40px;
+    border-radius: 5px;
+}
+#zipInput{
+    margin-left: -62px;
+    margin-top: 45px;
+    width: 142px;
+    height: 40px;
+    border-radius: 5px;
 }
