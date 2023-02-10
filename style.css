@@ -3,6 +3,9 @@
     margin: 0;
     padding: 0;
 }
+.flex{
+    display: flex;
+}
 body{
     background-color: #4072EE;
 }
@@ -104,3 +107,36 @@ body{
     height: 40px;
     border-radius: 5px;
 }
+#button button{
+    margin-left: 30px;
+    margin-top: 35px;
+    width: 325px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #29CB97;
+    color: #FFFFFF;
+}
+.mediaButtons{
+    position: relative;
+}
+.mediaButton1 button{
+    position: absolute;
+    border-radius: 5px;
+    top: 400px;
+    left: 50px;
+    width: 160px;
+    height: 40px;
+    background-color: #255B9B;
+    color: #FFFFFF;
+}
+.mediaButton2 button{
+    position: absolute;
+    border-radius: 5px;
+    top: 400px;
+    left: 270px;
+    width: 160px;
+    height: 40px;
+    background-color: #255B9B;
+    color: #FFFFFF;
+}
+
