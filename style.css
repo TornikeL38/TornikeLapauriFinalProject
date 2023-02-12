@@ -25,7 +25,7 @@ body{
     position: absolute;
     right: 130px;
     top: 50px;
-    width: 545px;
+    width: 475px;
     height: 645px;
     border-radius: 5px;
 }
@@ -41,11 +41,14 @@ body{
 .input{
     background-color:#FFFFFF;
     position: absolute;
-    width: 450px;
+    width: 380px;
     height: 350px;
     left: 9%;
     bottom: 19%;
-    box-shadow: -3px 3px 3px -5px;
+    border-radius: 5px;
+    box-shadow: 1px 3px 6px 3px #EBEDF4
+    /* box-shadow: -3px 3px 3px -5px; */
+
 }
 #emailLable{
     display: block;
@@ -60,6 +63,7 @@ body{
     width: 319px;
     height: 40px;
     border-radius: 5px;
+    border:1px solid #EBEDF4;
 }
 #countryLabel{
     display: block;
@@ -69,12 +73,13 @@ body{
     margin-left: 45px;
     margin-top: 20px;
 }
-#countryInput{
+#countrySection{
     margin-left: 30px;
     margin-top: 5px;
     width: 319px;
     height: 40px;
     border-radius: 5px;
+    border:1px solid #EBEDF4;
 }
 #cityAndZip{
     display: flex;
@@ -99,6 +104,7 @@ body{
     width: 142px;
     height: 40px;
     border-radius: 5px;
+    border:1px solid #EBEDF4;
 }
 #zipInput{
     margin-left: -62px;
@@ -106,6 +112,7 @@ body{
     width: 142px;
     height: 40px;
     border-radius: 5px;
+    border:1px solid #EBEDF4;
 }
 #button button{
     margin-left: 30px;
@@ -115,6 +122,8 @@ body{
     border-radius: 5px;
     background-color: #29CB97;
     color: #FFFFFF;
+    border:1px solid #EBEDF4;
+    cursor: pointer;
 }
 .mediaButtons{
     position: relative;
@@ -123,20 +132,24 @@ body{
     position: absolute;
     border-radius: 5px;
     top: 400px;
-    left: 50px;
+    left: 42px;
     width: 160px;
     height: 40px;
     background-color: #255B9B;
     color: #FFFFFF;
+    border:1px solid #EBEDF4;
+    cursor: pointer;
 }
 .mediaButton2 button{
     position: absolute;
     border-radius: 5px;
     top: 400px;
-    left: 270px;
+    left: 265px;
     width: 160px;
     height: 40px;
     background-color: #255B9B;
     color: #FFFFFF;
+    border:1px solid #EBEDF4;
+    cursor: pointer;
 }
 
