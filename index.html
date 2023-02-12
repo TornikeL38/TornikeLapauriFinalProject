@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="app.js">
     <title>Document</title>
@@ -19,8 +20,8 @@
                     <p>There is no charge upon registration!</p>
             </div>
             <div class="input">
-                <form>
-                    <label for="email" id="emailLable">Email adress</label>
+                <form id="lable">
+                    <label for="email" id="emailLabel">Email adress</label>
                     <input type="email" id="emailInput">
                     <label for="country" id="countryLabel">Country</label>
                     <select name="Change" id="countrySection">
@@ -37,7 +38,10 @@
                     </div>
                 </form>
                 <div id="button">
-                    <a href=""><button>Signup now</button></a>
+                    <a href="#"><button onclick="onSignup()">Signup now</button></a>
+                </div>
+                <div id="success">
+                    <span>successfully sent!</span>
                 </div>
             </div>
                 <div class="mediaButtons">
@@ -51,5 +55,33 @@
             </div>
         </div>
     </div>
+    <script>
+        const validateEmail = (email) => {
+    return String(email)
+      .toLowerCase()
+      .match(
+        /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+      );
+  };
+
+  function onSignup() {
+    console.log("shemovida")
+    const email = document.getElementById("emailInput");
+    console.log(email.value)
+    if(validateEmail(email.value)){
+        console.log("sworia")
+        const successText = document.getElementById("success");
+        successText.style.visibility = "visible";
+
+    } else {
+
+        const lightBox = document.getElementById('lightBox');
+        console.log(lightBox)
+        lightBox.id =""
+        lightBox.classList.add("darkBox");
+
+    }
+}
+    </script>
 </body>
 </html>

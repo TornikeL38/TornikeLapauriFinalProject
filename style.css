@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Roboto';
 }
 .flex{
     display: flex;
@@ -11,6 +12,7 @@ body{
 }
 #conteiner{
     position: relative;
+
 }
 #background{
     position: relative;
@@ -29,7 +31,7 @@ body{
     height: 645px;
     border-radius: 5px;
 }
-#darkBox{
+.darkBox{
     background-color: #1F2327;
     color: #FFFFFF;
     position: absolute;
@@ -39,12 +41,12 @@ body{
     height: 645px;
     border-radius: 5px;
 }
-#darkBox #button button{
+.darkBox #button button{
     border: none;
 }
-#darkBox select{
+.darkBox select{
     background-color: #292E33;
-    border-color: #33393F;
+    border-color: #33393F !important;
     color: #FFFFFF;
 }
 #lightBox #change{
@@ -55,7 +57,7 @@ body{
     font-weight: 400;
     color: #748AA1;
 }
-#darkBox #change{
+.darkBox #change{
     position: absolute;
     top: 130px;
     left: 285px;
@@ -64,20 +66,23 @@ body{
     color: #748AA1;
 
 }
-#darkBox button{
-    border-color: #255B9B;
+.darkBox #mediaButton1{
+    border: none;
 
 
 }
-#darkBox .input{
+.darkBox .input{
     background-color: #292E33;
     box-shadow: none;
     padding-top: 22px;
+    color: #FFFFFF;
+    border-color: #33393F;
 
 }
-#darkBox input{
+.darkBox input{
     background-color: #292E33;
-    border-color: #33393F;
+    border-color: #33393F !important;
+    color: #FFFFFF;
 }
 .signUp{
     margin-top: 91px;
@@ -101,7 +106,7 @@ body{
     /* box-shadow: -3px 3px 3px -5px; */
 
 }
-#emailLable{
+#emailLabel{
     display: block;
     font-size: 12px;
     color: #748AA1;
@@ -188,7 +193,7 @@ body{
     height: 40px;
     background-color: #255B9B;
     color: #FFFFFF;
-    border:1px solid #EBEDF4;
+    border:none;
     cursor: pointer;
 }
 .mediaButton2 button{
@@ -198,9 +203,14 @@ body{
     left: 265px;
     width: 160px;
     height: 40px;
-    background-color: #255B9B;
+    background-color: #00ADEE;
     color: #FFFFFF;
-    border:1px solid #EBEDF4;
+    border: none;
     cursor: pointer;
 }
 
+#success {
+    text-align: center;
+    color: #29CB97;
+    visibility: hidden;
+}
