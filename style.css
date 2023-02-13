@@ -7,7 +7,7 @@
 .flex{
     display: flex;
 }
-body{
+.body{
     background-color: #4072EE;
 }
 #conteiner{
@@ -16,11 +16,12 @@ body{
 }
 #background{
     position: relative;
+    height: 100vh;
 }
 #background img{
     max-width: 700px;
     position: absolute;
-    top: 200px;
+    bottom: 0;
 }
 #lightBox{
     background-color: #FFFFFF;
@@ -213,4 +214,10 @@ body{
     text-align: center;
     color: #29CB97;
     visibility: hidden;
+}
+.conteiner{
+    background: rgb(75,39,140);
+    background: linear-gradient(104deg, rgba(75,39,140,1) 0%, rgba(110,110,225,1) 100%, rgba(110,110,223,1) 100%);
+    width: 200px;
+    height: 200px;
 }
