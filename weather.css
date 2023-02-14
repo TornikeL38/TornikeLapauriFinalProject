@@ -3,11 +3,10 @@
     padding: 0;
     margin: 0;
 }
-body{
-    background-color: #E5E5E5;
-}
-.conteiner img{
-    Width: 1459px;
-    Height: 680px;
-    border-radius: 10px;
+.gradiant{
+    background-color: rgb(75,39,140);
+    background-color: -moz-linear-gradient(104deg, rgba(75,39,140,1) 0%, rgba(110,110,225,1) 100%, rgba(110,110,223,1) 100%);
+    background-color: -webkit-linear-gradient(104deg, rgba(75,39,140,1) 0%, rgba(110,110,225,1) 100%, rgba(110,110,223,1) 100%);
+    background-color: linear-gradient(104deg, rgba(75,39,140,1) 0%, rgba(110,110,225,1) 100%, rgba(110,110,223,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4b278c",endColorstr="#6e6edf",GradientType=1);
 }
