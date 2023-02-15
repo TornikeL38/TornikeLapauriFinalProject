@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="app.js">
     <title>Sign up</title>
 </head>
 <body class="body">
@@ -59,33 +58,6 @@
             </div>
         </div>
     </div>
-    <script>
-        const validateEmail = (email) => {
-    return String(email)
-      .toLowerCase()
-      .match(
-        /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
-      );
-  };
-
-  function onSignup() {
-    console.log("shemovida")
-    const email = document.getElementById("emailInput");
-    console.log(email.value)
-    if(validateEmail(email.value)){
-        console.log("sworia")
-        const successText = document.getElementById("success");
-        successText.style.visibility = "visible";
-
-    } else {
-
-        const lightBox = document.getElementById('lightBox');
-        console.log(lightBox)
-        lightBox.id =""
-        lightBox.classList.add("darkBox");
-
-    }
-}
-    </script>
+    <script src="app.js"></script>
 </body>
 </html>
