@@ -248,7 +248,7 @@
     border-radius: 10px;
     font-family: 'Poppins';
 }
-.weatherBar{
+#weatherBar{
     background-color: rgba(0,0,0,0.2);
     width: 350px;
     height: 415px;
@@ -256,7 +256,7 @@
     margin-left: 400px;
     margin-top: 125px;
 }
-.weatherBar2{
+#weatherBar2{
     background-color: rgba(0,0,0,0.2);
     width: 350px;
     height: 415px;

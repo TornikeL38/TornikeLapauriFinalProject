@@ -1,5 +1,5 @@
 const getWeather = async() => {
-const weatherBar = document.getElementsByClassName('weatherBar')
+const weatherBar = document.getElementById('weatherBar')
     try{
         const lat = 41.901051;
         const lon = 45.526001;
@@ -15,7 +15,7 @@ const weatherBar = document.getElementsByClassName('weatherBar')
             console.log(data)
             const h2 = document.createElement("h2")
             h2.textContent = data.name 
-            h2.classList.add(qalaqi)
+            h2.classList.add('qalaqi')
             weatherBar.appendchild(h2)
         }
     }
