@@ -1,5 +1,6 @@
 const getWeather = async() => {
 const weatherBar = document.getElementById('weatherBar')
+console.log(weatherBar)
     try{
         const lat = 41.901051;
         const lon = 45.526001;
@@ -16,7 +17,8 @@ const weatherBar = document.getElementById('weatherBar')
             const h2 = document.createElement("h2")
             h2.textContent = data.name 
             h2.classList.add('qalaqi')
-            weatherBar.appendchild(h2)
+
+            weatherBar.appendChild(h2)
         }
     }
     catch(e){

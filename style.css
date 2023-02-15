@@ -215,9 +215,6 @@
     color: #29CB97;
     visibility: hidden;
 }
-.flex{
-    display: flex;
-}
 .header{
     background-color: rgba(0,0,0,0.09);
     height: 56px;
@@ -225,7 +222,6 @@
 .wrapper{
     display: flex;
     justify-content: space-between;
-    width: 1465px;
 }
 .header img{
     margin-left: 50px;
