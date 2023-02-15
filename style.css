@@ -217,15 +217,13 @@
 }
 .header{
     background-color: rgba(0,0,0,0.09);
-    height: 56px;
+    padding: 20px;
 }
 .wrapper{
     display: flex;
     justify-content: space-between;
 }
 .header img{
-    margin-left: 50px;
-    margin-top: 10px;
     height: 30px;
 }
 .header p{
@@ -233,7 +231,7 @@
     font-size: 20px;;
     color: #FFFFFF;
     margin-left: 15px;
-    margin-top: 14px;
+    margin-top: 4px;
 }
 .gradiant{
     background-color: rgb(75,39,140);
@@ -243,22 +241,21 @@
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4b278c",endColorstr="#6e6edf",GradientType=1);
     border-radius: 10px;
     font-family: 'Poppins';
+    height: 100vh;
 }
 #weatherBar{
     background-color: rgba(0,0,0,0.2);
-    width: 350px;
+   flex:1;
     height: 415px;
     border-radius: 48px;
-    margin-left: 400px;
-    margin-top: 125px;
+
 }
 #weatherBar2{
     background-color: rgba(0,0,0,0.2);
-    width: 350px;
+   flex:1;
     height: 415px;
     border-radius: 48px;
     margin-left: 40px;
-    margin-top: 125px;
     display: flex;
 }
 .addNew{
@@ -309,7 +306,26 @@
     font-weight: 400;
     font-size: 18px;
 }
+.text{
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.conteiner{
+    max-width: 800px;
+    margin: auto;
+    height: calc(100% - 160px);
+
+}
 .qalaqi{
     color: #FFFFFF;
     width: 100px;
+}
+.weather-wrapper {
+    align-items: center;
+    height: 100%;
+
 }
