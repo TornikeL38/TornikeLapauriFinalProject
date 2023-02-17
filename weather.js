@@ -16,7 +16,7 @@ console.log(weatherBar)
             console.log(data)
             const h2 = document.createElement("h2")
             h2.textContent = data.name 
-            h2.classList.add('qalaqi')
+            h2.classList.add('city')
 
             weatherBar.appendChild(h2)
         }
