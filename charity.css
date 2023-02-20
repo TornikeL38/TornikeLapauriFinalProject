@@ -69,4 +69,86 @@ li{
     height: 48px;
     border-radius: 30px;
     border: 0.5px solid #7E8AB8 ;
+    font-weight: 400;
+}
+.weather-regitration{
+    position: relative;
+}
+.weather-regitration a{
+    position: absolute;
+    color: black;
+    text-decoration: none;
+}
+.weather{
+    left: 635px;
+    top: 25px;
+}
+.signup{
+    left: 735px;
+    top: 25px;
+}
+.shapes{
+    position: relative;
+}
+.shapes img{
+    position: absolute;
+}
+#line{
+    right: 317px;
+    top: -520px;
+    width: 250px;
+}
+#number{
+    width: 120px;
+    top: -606px;
+    right: 390px;
+}
+#circle{
+    top: -403px;
+    right: 190px;
+    width: 158px;
+}
+#circle2{
+    top: -526px;
+    width: 280px;
+    right: 215px;
+}
+#path{
+    top: -770px;
+    right: 120px;
+}
+.text{
+    position: relative;
+}
+h1{
+    font-weight: 300;
+    font-Size: 72px;
+    line-height: 80px;
+    position: absolute;
+    left: 190px;
+    bottom: 450px;
+    font-family: "Rowdies";
+
+}
+.text p{
+    position: absolute;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    bottom: 365px;
+    left: 190px;
+    color: #3A170080;
+}
+.donation{
+    position: absolute !important;
+    height: 48px;
+    width: 180px;
+    height: 40px;
+    border-radius: 50px;
+    top: -330px;
+    left: 190px;
+    background-color: #7E8AB8;
+    color: white;
 }
