@@ -22,7 +22,7 @@
 #rectangle{
     position: absolute;
     width: 500px;
-    top: 119px;
+    top: 142px;
     right: 0px;
 }
 header{
@@ -70,6 +70,7 @@ li{
     border-radius: 30px;
     border: 0.5px solid #7E8AB8 ;
     font-weight: 400;
+    cursor: pointer;
 }
 .weather-regitration{
     position: relative;
@@ -151,4 +152,48 @@ h1{
     left: 190px;
     background-color: #7E8AB8;
     color: white;
+    cursor: pointer;
+}
+.conteiner{
+    max-width: 1835px;
+}
+.size-color{
+    background-color: white;
+    max-width: 1835px;
+    margin: 0 auto
+}
+.conteiner{
+    max-width: 1500px;
+    height: 500px;
+    background-color: white;
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+#ourFeatures{
+    text-align: center;
+    margin-top: 122px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 32px;
+    color: #E29F72;
+}
+#txtOnCharity{
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 40px;
+    text-align: center;
+}
+#secondSectionpath{
+    margin-top: 85px;
+    margin-left: 100px;
+}
+#secondSectionOval{
+    margin-bottom: 260px;
+    margin-left: -200px;
+}
+.firstBox{
+    width: 200px;
+    height: 200px;
+    background-color: black;
 }
