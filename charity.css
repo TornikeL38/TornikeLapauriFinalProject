@@ -7,7 +7,7 @@
     display: flex;
 }
 .wrapper{
-    max-width: 1835px;
+    max-width: 100%;
     background-color: #F3F2E7;
     margin: 0 auto;
 }
@@ -36,13 +36,7 @@ header{
     left: 35px;
     
 }
-.wrapper2{
-    max-width: 1835px;
-    background-color: black;
-    width: 100%;
-    height: 100vh;
-    margin: 0 auto;
-}
+
 .nav-bar{
     position: relative;
 }
@@ -163,9 +157,8 @@ h1{
     margin: 0 auto
 }
 .conteiner{
-    max-width: 1500px;
-    height: 500px;
-    background-color: white;
+    max-width: 100%;
+    background-color: #ffff;
     margin-top: 100px;
     margin-left: 200px;
     margin-right: 200px;
@@ -192,8 +185,47 @@ h1{
     margin-bottom: 260px;
     margin-left: -200px;
 }
-.firstBox{
-    width: 200px;
-    height: 200px;
-    background-color: black;
+.conteiner_wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin-top: -450px;
+    margin-left: 145px;
+}
+.box{
+    background-color: #F3F2E7;
+    max-width: 490px;
+
+    padding: 54px 37px;
+}
+.box_help {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+.firstHr{
+    display: block;
+    width:15%;
+    text-align:left;
+    margin-left:0;
+    height: 3px;
+    background-color: #333333    ;
+    margin-top: 15px;
+}
+.secondHr{
+    display: block;
+    width:85%;
+    text-align:left;
+    margin-left:0;
+    height: 1px;
+    background-color: #DEDDCD;
+    margin-top: 15px;
+}
+.box_help_txt{
+    margin-top: 15px;
+}
+.box_help_txt p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #3A170080;
 }
