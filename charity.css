@@ -147,17 +147,18 @@ h1{
     background-color: #7E8AB8;
     color: white;
     cursor: pointer;
+    border: 0px;
 }
 .conteiner{
     max-width: 1835px;
 }
 .size-color{
     background-color: white;
-    max-width: 1835px;
+    max-width: 100%;
     margin: 0 auto
 }
 .conteiner{
-    max-width: 100%;
+    max-width: 1500px;
     background-color: #ffff;
     margin-top: 100px;
     margin-left: 200px;
@@ -195,7 +196,7 @@ h1{
 .box{
     background-color: #F3F2E7;
     max-width: 490px;
-
+    border-radius: 12px;
     padding: 54px 37px;
 }
 .box_help {
@@ -228,4 +229,133 @@ h1{
     font-weight: 400;
     font-size: 16px;
     color: #3A170080;
+}
+.third_section{
+    max-width: 100%;
+}
+.third_conteiner{
+    max-width: 1500px;
+    background-color: white;
+    margin-left: 270px;
+    margin-right: 200px;
+}
+.ourCases{
+    text-align: center;
+    margin-top: 122px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 32px;
+    color: #E29F72;
+}
+.txtOnCauses{
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 40px;
+    text-align: center;
+}
+.div_center{
+    gap: 50px;
+    justify-content: center;
+}
+.control{
+    margin-top: 70px;
+    max-width: 1000px;
+}
+.third_section_images{
+    max-width: 370px ;
+    border-radius: 12px 12px 0px 0px;
+    height: 240px;
+} 
+.box_in_third_section{
+    background-color: #F3F2E7;
+    max-width:  370px;
+    border-radius: 0px 0px 12px 12px ;
+    margin-top: -4px;
+}
+.inside_the_box{
+    padding: 20px 30px;
+}
+.inside_the_box h3{
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 32px;
+}
+.inside_the_box p{
+    margin-top: -10px;
+}
+.goal{
+    margin-left: 53%;
+}
+.hr_in_third_section{
+    display: block;
+    width:30%;
+    margin-left: 30px;
+    height: 8px;
+    background-color: #2FB0AB;
+    margin-top: 0px;
+    border-radius: 20px;
+}
+.second_hr_in_third_section{
+    display: block;
+    width:50%;
+    margin-left:0px;
+    height: 8px;
+    background-color: #E6E4D6;
+    margin-top: 0px;
+    border-radius: 20px;
+}
+.button_in_third_sectio{
+    border-radius: 24px;
+    margin-left: 30px;
+    width: 50%;
+    background-color: #7E8AB8;
+    margin-top: 40px;
+    height: 50px;
+    margin-bottom: 48px ;
+    cursor: pointer;
+    color: white;
+    border: 0px;
+}
+.main_div{
+    padding-left: 60px;
+}
+.food{
+    border-radius: 12px 12px 0px 0px;
+    height: 240px;
+}
+.food_hr_in_third_section{
+    display: block;
+    width:50%;
+    margin-left:30px;
+    height: 8px;
+    background-color: #2FB0AB;
+    margin-top: 0px;
+    border-radius: 20px;
+}
+.food_second_hr_in_third_section{
+    display: block;
+    width:30%;
+    margin-left:0px;
+    height: 8px;
+    background-color: #E6E4D6;
+    margin-top: 0px;
+    border-radius: 20px;
+}
+.charity_hr_in_third_section{
+    display: block;
+    width:45%;
+    margin-left:30px;
+    height: 8px;
+    background-color: #2FB0AB;
+    margin-top: 0px;
+    border-radius: 20px;
+}
+.charity_second_hr_in_third_section{
+    display: block;
+    width:35%;
+    margin-left:0px;
+    height: 8px;
+    background-color: #E6E4D6;
+    margin-top: 0px;
+    border-radius: 20px;
 }
