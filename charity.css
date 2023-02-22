@@ -162,7 +162,7 @@ h1{
     background-color: #ffff;
     margin-top: 100px;
     margin-left: 200px;
-    margin-right: 200px;
+    margin-right: 300px;
 }
 #ourFeatures{
     text-align: center;
@@ -236,7 +236,7 @@ h1{
 .third_conteiner{
     max-width: 1500px;
     background-color: white;
-    margin-left: 270px;
+    margin-left: 200px;
     margin-right: 200px;
 }
 .ourCases{
@@ -358,4 +358,106 @@ h1{
     background-color: #E6E4D6;
     margin-top: 0px;
     border-radius: 20px;
+}
+.explore_button{
+    display: flex;
+    justify-content: center;
+}
+.explore{
+    width: 170px;
+    height: 48px;
+    color: #7E8AB8;
+    border-color: #7E8AB8;
+    border-radius: 30px;
+    margin-top: 64px;
+    margin-bottom: 112px;
+    cursor: pointer;
+    margin-left: 80px;
+    border: 0.2px solid #7E8AB8;
+    background-color: white;
+}
+.forth_section{
+    max-width: 100%;
+    background-color: #F3F2E7;
+    margin: 0 auto;
+    justify-content: center;
+}
+.forth_conteiner{
+    display: flex;
+    max-width: 1300px;
+    background-color: #F3F2E7;
+    justify-content: center;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+.right_side{
+    margin-left: 900px;
+    margin-top: 50px;
+}
+.about_us{
+    width: 98px;
+    height: 32px;
+    font-size: 16px;
+    font-weight: 98px;
+    color: #E29F72;
+}
+.highes_form{
+    width: 314px;
+    height: 128px;
+    font-weight: 300;
+    font-size: 56px;
+    color: #3A1700;
+}
+.right_side p{
+    width: 470px;
+    height: 101px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #3A1700;
+    margin-top: 29px;
+}
+.right_side button{
+    width: 170px;
+    height: 48px;
+    color: #7E8AB8;
+    border-color: #7E8AB8;
+    border-radius: 30px;
+    margin-top: 35px;
+    margin-bottom: 112px;
+    cursor: pointer;
+    border: 0.2px solid #7E8AB8;
+    background-color: white;
+}
+.left_side{
+    position: relative;
+}
+#combined{
+    position: absolute;
+    width: 400px;
+    left: 345px;
+}
+#forth_sectio_rectangle{
+    position: absolute;
+    width: 238px;
+    left: 200px;
+    top: 30px;
+}
+#forth_sectio_circle{
+    position: absolute;
+    width: 228px;
+    left: 230px;
+    top: 315px;
+}
+#forth_sectio_path{
+    position: absolute;
+    left: 615px;
+    top: 345px;
+    width: 178px;
+}
+#main_pic{
+    position: absolute;
+    width: 370px;
+    top: 83px;
+    left: 303px;
+    border-radius: 24px;
 }
