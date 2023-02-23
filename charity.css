@@ -232,6 +232,7 @@ h1{
 }
 .third_section{
     max-width: 100%;
+    
 }
 .third_conteiner{
     max-width: 1500px;
@@ -377,6 +378,7 @@ h1{
     background-color: white;
 }
 .forth_section{
+    display: flex;
     max-width: 100%;
     background-color: #F3F2E7;
     margin: 0 auto;
@@ -384,11 +386,10 @@ h1{
 }
 .forth_conteiner{
     display: flex;
-    max-width: 1300px;
+    max-width: 1835px;
     background-color: #F3F2E7;
     justify-content: center;
-    margin-right: 200px;
-    margin-left: 200px;
+    margin-top: 150px;
 }
 .right_side{
     margin-left: 900px;
@@ -423,7 +424,7 @@ h1{
     border-color: #7E8AB8;
     border-radius: 30px;
     margin-top: 35px;
-    margin-bottom: 112px;
+    margin-bottom: 300px;
     cursor: pointer;
     border: 0.2px solid #7E8AB8;
     background-color: white;
@@ -460,4 +461,79 @@ h1{
     top: 83px;
     left: 303px;
     border-radius: 24px;
+}
+.fifth_section{
+    max-width: 100%;
+    background-color: #F3F2E7;
+    margin: 0 auto;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.fifth_section_conteiner_position{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.fifth_section_conteiner{
+    max-width: 1500px;
+    margin-top: 42px;
+    
+}
+.fifth_section_box1{
+    justify-content: center;
+    max-width: 370px;
+    margin-left: 30px;
+    border-radius: 12px;
+    background-color: white;
+}
+.fifth_section_box1 h2{
+    width: 69px;
+    height: 64px;
+    font-weight: 300;
+    font-size: 56px;
+    margin-left: 32px;
+    margin-top: 39px;
+    margin-bottom: 42px;
+    color: #3A1700;
+}
+.fifth_section_box1 h5{
+    width: 64px;
+    height: 32px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    margin-left: 125px;
+    margin-top: -102px ;
+    margin-right: 181px;
+    color: #5F4230;
+}
+.fifth_section_box1 p{
+    width: 156px;
+    height: 32px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    margin-bottom: 28px;
+    margin-left: 125px;
+    color: #3A1700;
+}
+.unselfish h5{
+    margin-top: 298px;
+    width: 116px;
+    height: 32px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 32px;
+    color: #E29F72;
+}
+.unselfish h2{
+    margin-top: 17px;
+    Width:384px;
+    Height:128px;
+    font-size: 56px;
+    font-weight: 300;
+    line-height: 64px;
 }
