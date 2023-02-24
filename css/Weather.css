@@ -31,10 +31,6 @@ h4 {
     gap: 2vw;
     align-items: center;
 }
-
-.logo img {
-}
-
 .links {
     display: flex;
     gap: 1vw;
@@ -73,10 +69,6 @@ h4 {
     gap: 20px;
     margin-left: 20px;
 }
-
-.daynight {
-}
-
 .city {
     display: flex;
     flex-direction: column;
@@ -86,12 +78,6 @@ h4 {
 h4, h5 {
     margin: 0;
 }
-.city_name {
-}
-
-.date {
-}
-
 .temperature {
     display: flex;
     flex-direction: column;
@@ -110,9 +96,6 @@ h4, h5 {
     gap: 10px;
     color: white;
     font-size: 10px;
-}
-
-.add_new {
 }
 #celsius {
     font-size: 120px;

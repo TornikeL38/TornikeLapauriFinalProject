@@ -532,8 +532,121 @@ h1{
 .unselfish h2{
     margin-top: 17px;
     Width:384px;
-    Height:128px;
-    font-size: 56px;
+    font-size: 55px;
     font-weight: 300;
     line-height: 64px;
+}
+.unselfish p{
+    margin-top: 29px;
+    width: 470px;
+    font-weight: 400;
+    font-size: 20px;
+}
+.unselfish button{
+    width: 202px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #7E8AB8 ;
+    border-radius: 30px;
+    border-color: #7E8AB84E;
+    margin-top: 35px;
+    cursor: pointer;
+    height: 48px;
+    margin-bottom: 300px;
+}
+.unselfish_position{
+    position: relative;
+}
+.unselfish_position img{
+    position: absolute;
+}
+#fifth_section_comb{
+    right: 100px;
+    bottom: 180px;
+}
+#fifth_section_oval{
+    right: 240px;
+    bottom: 580px;
+}
+#fifth_section_rect{
+    right: -85px;
+    bottom: 185px;
+}
+#fifth_section_main{
+    width: 430px;
+    right: -25px;
+    bottom: 280px;
+    border-radius: 12px;
+}
+#fifth_section_path{
+    right: -120px;
+    bottom: 655px;
+}
+.sixth_section{
+    display: flex;
+    max-width: 100%;
+    background-color: white;
+    margin: 0 auto;
+    justify-content: center;
+}
+.sixth_conteiner{
+    display: flex;
+    max-width: 1835px;
+    background-color: white;
+    justify-content: center;
+    margin-top: 150px;
+}
+.ourservice h5{
+    width: 141px;
+    font-weight: 300;
+    font-size: 16px;
+    color:  #E29F72;
+    margin-top: 139px;
+    margin-left: 25px;
+}
+.ourservice h2{
+    width: 467px;
+    font-weight: 300;
+    font-size: 56px;
+    color:#3A1700;
+    margin-top: 17px;
+    margin-left: 25px;
+}
+.sixth_conteiner_wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 69px;
+}
+.sixth_section_button{
+    border-radius: 24px;
+    width: 40%;
+    background-color: #7E8AB8;
+    margin-top: 150px;
+    height: 50px;
+    margin-bottom: 0px ;
+    cursor: pointer;
+    color: white;
+    border: 0px;
+}
+.explore_all{
+    width: 170px;
+    height: 48px;
+    color: #7E8AB8;
+    border-color: #7E8AB8;
+    border-radius: 30px;
+    margin-top: 64px;
+    margin-bottom: 112px;
+    cursor: pointer;
+    border: 0.2px solid #7E8AB8;
+    background-color: white;
+    margin-left: 44%;
+}
+.box2{
+    background-color: #F3F2E7;
+    max-width: 490px;
+    border-radius: 12px;
+    padding: 54px 37px;
+    margin-left: 25px;
+    margin-right: 25px;
 }
