@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 .flex{
     display: flex;
@@ -686,13 +687,11 @@ h1{
 .video img{
     position: absolute;
 }
-.video iframe{
-    position: absolute;
-    top: 69px;
-    left: 70px;
+.video video{
+margin-top: 50px;
     border-radius: 12px;
     width: 570px;
-    height: 400px;
+    
 }
 #charity1{
     width: 270px;
@@ -722,7 +721,4 @@ h1{
     border-radius: 12px;
     left: -10px;
     top:  6535px;
-}
-.body{
-    overflow-x:visible;
 }
