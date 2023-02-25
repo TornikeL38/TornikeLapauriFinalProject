@@ -650,3 +650,61 @@ h1{
     margin-left: 25px;
     margin-right: 25px;
 }
+.sseventh_section{
+    display: flex;
+    max-width: 100%;
+    background-color: white;
+    margin: 0 auto;
+    justify-content: center;
+}
+.seventh_conteiner{
+    display: flex;
+    max-width: 1835px;
+    background-color: white;
+    justify-content: center;
+    margin-top: 150px;
+}
+.our_gallery h5{
+    width: 141px;
+    font-weight: 300;
+    font-size: 16px;
+    color:  #E29F72;
+    margin-top: 139px;
+    margin-left: 170px;
+}
+.our_gallery h2{
+    width: 467px;
+    font-weight: 300;
+    font-size: 56px;
+    color:#3A1700;
+    margin-top: 17px;
+    margin-left: 25px;
+}
+.video{
+    position: relative;
+}
+.video img{
+    position: absolute;
+}
+.video iframe{
+    position: absolute;
+    top: 69px;
+    left: 70px;
+    border-radius: 12px;
+    width: 570px;
+    height: 400px;
+}
+#charity1{
+    width: 270px;
+    position: absolute;
+    left: -10px;
+    top:  6535px;
+    border-radius: 12px;
+}
+#charity2{
+    width: 270px;
+    position: absolute;
+    left: 208px;
+    top:  6825px;
+    border-radius: 12px;
+}
