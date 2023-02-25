@@ -697,14 +697,32 @@ h1{
 #charity1{
     width: 270px;
     position: absolute;
-    left: -10px;
-    top:  6535px;
+    top: 6825px;
+    right: -30px;
     border-radius: 12px;
 }
 #charity2{
-    width: 270px;
+    width: 350px;
     position: absolute;
     left: 208px;
     top:  6825px;
     border-radius: 12px;
+}
+#charity03{
+    position: absolute;
+    width: 185px;
+    height: 144px;
+    border-radius: 12px;
+    right: 285px;
+    top: 6700px;
+}
+#charity4{
+    position: absolute;
+    width: 270px;
+    border-radius: 12px;
+    left: -10px;
+    top:  6535px;
+}
+.body{
+    overflow-x:visible;
 }
