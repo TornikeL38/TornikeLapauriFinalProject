@@ -702,7 +702,7 @@ margin-top: 50px;
     width: 350px;
     position: absolute;
     left: 208px;
-    top:  6525px;
+    top:  6625px;
     border-radius: 12px;
 }
 #charity03{
@@ -710,7 +710,7 @@ margin-top: 50px;
     width: 270px;
     height: 144px;
     border-radius: 12px;
-    right: 285px;
+    right: 185px;
     top: 6350px;
 }
 #charity4{
@@ -722,4 +722,92 @@ margin-top: 50px;
 }
 body{
     overflow-x: hidden;
+}
+.video_explore_all{
+    width: 170px;
+    height: 48px;
+    color: #7E8AB8;
+    border-color: #7E8AB8;
+    border-radius: 30px;
+    margin-top: 364px;
+    margin-bottom: 112px;
+    cursor: pointer;
+    border: 0.2px solid #7E8AB8;
+    background-color: white;
+    margin-left: 44%;
+}
+.eighth_section{
+    max-width: 100%;
+}
+.eighth_conteiner{
+    max-width: 2000px;
+}
+.background8{
+    max-width: 100%;
+    background: rgb(226,159,114);
+    background: -moz-linear-gradient(143deg, rgba(226,159,114,1) 15%, rgba(204,128,77,1) 15%, rgba(207,130,79,1) 87%, rgba(226,159,114,1) 87%, rgba(226,159,114,1) 87%);
+    background: -webkit-linear-gradient(143deg, rgba(226,159,114,1) 15%, rgba(204,128,77,1) 15%, rgba(207,130,79,1) 87%, rgba(226,159,114,1) 87%, rgba(226,159,114,1) 87%);
+    background: linear-gradient(143deg, rgba(226,159,114,1) 15%, rgba(204,128,77,1) 15%, rgba(207,130,79,1) 87%, rgba(226,159,114,1) 87%, rgba(226,159,114,1) 87%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e29f72",endColorstr="#e29f72",GradientType=1);
+    height: 304px;
+    
+}
+.eighth_combined{
+    margin-top: 33px;
+    margin-left: 580px;
+}
+.eighth_oval4{
+    margin-left: -30px;
+}
+.eighth_oval5{
+    margin-left: 150px;
+    margin-bottom: 80px;
+}
+.txt_position{
+    position: relative;
+}
+.h2_position{
+    /* position: absolute; */
+    color: white;
+    width:405px;
+    font-weight: 300;
+    font-size: 56px;
+    margin-top: -180px;
+    margin-left: 100px;
+}
+.txt_positions p{
+    color: #F3F2E7;
+    width: 470px;
+    font-weight: 4000;
+    font-size: 16px;
+    margin-top:20px;
+    margin-left: 100px;
+}
+.section_eight_button{
+    position: absolute;
+    width: 170px;
+    height: 48px;
+    color: white;
+    border-color: white;
+    border-radius: 30px;
+    top: 7220px;
+    left: 170px;
+    cursor: pointer;
+    border: 0.2px solid white;
+    background-color: #ce814e;
+    margin-left: 44%;
+}
+.section_eight_button2{
+    position: absolute;
+    width: 202px;
+    height: 48px;
+    color: white;
+    border-color: #FFB200;
+    border-radius: 30px;
+    top: 7220px;
+    left: 400px;
+    cursor: pointer;
+    border: 0.2px solid#FFB200;
+    background-color: #FFB200;
+    margin-left: 44%;
 }
