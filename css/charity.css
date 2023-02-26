@@ -2,7 +2,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
 }
 .flex{
     display: flex;
@@ -602,7 +601,6 @@ h1{
     font-weight: 300;
     font-size: 16px;
     color:  #E29F72;
-    margin-top: 139px;
     margin-left: 25px;
 }
 .ourservice h2{
@@ -637,7 +635,7 @@ h1{
     border-color: #7E8AB8;
     border-radius: 30px;
     margin-top: 64px;
-    margin-bottom: 112px;
+    margin-bottom: 0px;
     cursor: pointer;
     border: 0.2px solid #7E8AB8;
     background-color: white;
@@ -696,7 +694,7 @@ margin-top: 50px;
 #charity1{
     width: 270px;
     position: absolute;
-    top: 6825px;
+    top: 6625px;
     right: -30px;
     border-radius: 12px;
 }
@@ -704,21 +702,24 @@ margin-top: 50px;
     width: 350px;
     position: absolute;
     left: 208px;
-    top:  6825px;
+    top:  6525px;
     border-radius: 12px;
 }
 #charity03{
     position: absolute;
-    width: 185px;
+    width: 270px;
     height: 144px;
     border-radius: 12px;
     right: 285px;
-    top: 6700px;
+    top: 6350px;
 }
 #charity4{
     position: absolute;
     width: 270px;
     border-radius: 12px;
     left: -10px;
-    top:  6535px;
+    top:  6300px;
+}
+body{
+    overflow-x: hidden;
 }
