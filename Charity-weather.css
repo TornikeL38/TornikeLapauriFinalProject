@@ -140,4 +140,16 @@ footer {
     .plus_card{
         display: none;
     }
+    .card{
+        transform: scale(1.5);
+    }
+}
+
+@media (max-width: 600px) {
+    .plus_card{
+        display: none;
+    }
+    .card{
+        transform: scale(3.5);
+    }
 }
