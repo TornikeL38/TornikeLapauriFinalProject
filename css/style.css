@@ -329,3 +329,21 @@
     height: 100%;
 
 }
+
+@media (max-width: 1024px){
+    #background{
+        display: none;
+    }
+    .body{
+        background-color: black;
+    }
+    #lightBox{
+        background-color: rgb(20, 47, 70);
+    }
+    .input{
+        background-color: rgb(20, 47, 70);
+    }
+    #lightBox h1{
+        color: white;
+    }
+}

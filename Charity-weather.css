@@ -134,4 +134,10 @@ footer {
 }
 .test{
     display: none;
+} 
+
+@media (max-width: 1024px) {
+    .plus_card{
+        display: none;
+    }
 }
